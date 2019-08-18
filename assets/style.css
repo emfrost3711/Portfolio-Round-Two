@@ -1,21 +1,21 @@
 @import url("reset.css");
 
 body {
-  background-image: url("../assets/images/blur-bright-close-up-1194534.jpg");
-  /* Photo by Simon Matzinger from Pexels */ 
+background: url("../assets/images/stardust.png");
 background-size: cover;
 width: 100%;
-background-blend-mode: lighten;
+/* background-blend-mode: lighten; */
 }
 
-.container {
+/* .container {
 
-}
+} */
 
 #main-container {
+  
   font-size: 18px;
   line-height: 34px;
-  color: #2e2e2e;
+  color: #dddcdc;
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
@@ -30,18 +30,21 @@ background-blend-mode: lighten;
   font-size: 30px;
   font-weight: 700;
   line-height: 90px;
-  color: #ffffff;
+  color: #dddcdc;
   text-align: center;
   text-decoration: none;
-  background: #2297a7;
+  text-shadow: none !important;
+  background: #29686a;
 }
 
 a:link {
-  color:#2297a7;
+  color: #29686a;
+  text-shadow: -.5px 0 whitesmoke, 0 .5px whitesmoke, .5px 0 whitesmoke, 0 -.5px whitesmoke;  text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
 }
 
 a:visited {
   color: #b48484;
+  text-shadow: -.5px 0 whitesmoke, 0 .5px whitesmoke, .5px 0 whitesmoke, 0 -.5px whitesmoke;  text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
 }
 
 
@@ -68,7 +71,8 @@ h2,
 h3 {
   font-family: 'Fredericka the Great', cursive;
   font-weight: 700;
-  color: #2297a7;
+  color: #29686a;
+  text-shadow: -.5px 0 whitesmoke, 0 .5px whitesmoke, .5px 0 whitesmoke, 0 -.5px whitesmoke;
 }
 
 h1 {
@@ -87,7 +91,7 @@ footer {
   color: snow;
   text-align: center;
   background: #b48484;
-  border-top: 8px solid #2297a7;
+  border-top: 8px solid #29686a;;
   height: 50px;
   display: flex;
   flex-direction: column;
